@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $db_name = "beefhouse";
-$username = "adm";
-$password = "Linux4Ever";
+$username = "user1";
+$password = "teo123";
 $connection = null;
 try{
 $connection = new PDO("mysql:host=" . $host . ";dbname=" . $db_name, $username, $password);
